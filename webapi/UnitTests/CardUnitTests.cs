@@ -9,9 +9,8 @@ namespace webapi.UnitTests
     public class CardUnitTests
     {
         [Test]
-        public void isDeckShuffled()
+        public void IsDeckShuffled()
         {
-            Assert.AreEqual(2, 2);
             Deck testDeck = new Deck();
             List<Card> controlDeck = new List<Card>();
             string[] suits = { "♠", "♥", "♦", "♣" };
@@ -26,7 +25,7 @@ namespace webapi.UnitTests
 
             Console.WriteLine("is this working?");
 
-            //Assert.AreNotEqual(testDeck._cards, controlDeck);
+            Assert.AreNotEqual(testDeck._cards, controlDeck);
         }
     }
 }
