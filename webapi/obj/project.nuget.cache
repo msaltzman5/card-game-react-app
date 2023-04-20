@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eibBYNsHw2FFmiD7Fx4eUIhtFaVvsF9DkzhckCI7M1UIXcH6fMAhNU6y4qJPNLz51MydaEL31fbCbw2RxwiKFQ==",
+  "dgSpecHash": "HZWCPm5bH7noY6AIYCpu9jDY8w0N66rqwREsgltWZvFNnup1kDQUBTNXSS9en5a3iaE3+g59sx1Pa+AKCAGI+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bananarama\\CSCE361\\card-game-react-test\\webapi\\webapi.csproj",
+  "projectFilePath": "C:\\Users\\Bananarama\\CSCE361\\card-game-react-app\\webapi\\webapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bananarama\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\Bananarama\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
