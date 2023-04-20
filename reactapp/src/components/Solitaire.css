@@ -1,0 +1,101 @@
+﻿.game {
+    padding: 5vh;
+    display: grid;
+    background-color: green;
+    border: 5px solid black;
+    box-shadow: 10px 10px;
+    border-radius: 5px;
+    grid-template-columns: repeat(7, 6rem);
+    grid-template-rows: 9rem 9rem;
+    height: 80vh;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    grid-column: span 7;
+}
+
+.waste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.deck {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px;
+}
+
+.card-slot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px;
+}
+
+.card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.card.red {
+    color: red;
+}
+
+.card.black {
+    color: black;
+}
+
+.card::before,
+.card::after {
+    position: absolute;
+    content: attr(data-value);
+    font-size: 1rem;
+}
+
+.card::before {
+    top: .5rem;
+    left: .5rem
+}
+
+.card::after {
+    bottom: .5rem;
+    right: .5rem;
+    transform: rotate(180deg);
+}
+
+.spade {
+    font-size: 5rem
+}
+.club {
+    font-size: 5rem
+}
+.diamond {
+    font-size: 5rem
+}
+.heart {
+    font-size: 5rem
+}
