@@ -15,25 +15,17 @@
 
             public override string ToString()
             {
-                return string.Format("{0} of {1}", Suit, Rank);
+                return string.Format("{0} of {1}", Rank, Suit);
             }
-
-            /*public wasteCardSlot ()
-            {
-                HtmlGenericControl cardDiv = new HtmlGenericControl("div");
-
-                return cardDiv;
-            }*/
-
         }
 
-        public class Deck
+        public class Deck : IEnumerable<Card>
         {
-            public List<Card> _cards { get; }
+            public List<Card> cards { get; }
 
             public Deck()
             {
-                _cards = GetShuffledDeck();
+                cards = GetShuffledDeck();
             }
 
             public List<Card> GetShuffledDeck()
@@ -66,6 +58,16 @@
                     list[k] = list[n];
                     list[n] = temp;
                 }
+            }
+
+            public IEnumerator<Card> GetEnumerator()
+            {
+                return cards.GetEnumerator();
+            }
+
+            System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
+            {
+                throw new NotImplementedException();
             }
         }
     }
