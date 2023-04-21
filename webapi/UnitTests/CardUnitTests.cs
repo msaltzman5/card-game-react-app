@@ -18,14 +18,25 @@ namespace webapi.UnitTests
             foreach (var suit in suits)
             {
                 foreach (var rank in ranks)
-                {
+                { 
                     controlDeck.Add(new Card(suit, rank));
                 }
             }
 
-            Console.WriteLine("is this working?");
+            //Debugging cards shuffled
+            /*foreach (Card card in testDeck)
+            {
+                Console.WriteLine(card);
+            }*/
 
-            Assert.AreNotEqual(testDeck._cards, controlDeck);
+            Assert.AreNotEqual(testDeck.cards, controlDeck);
+        }
+
+        [Test]
+        public void deckCreates52Cards()
+        {
+            Deck testDeck = new Deck();
+            Assert.AreEqual(52, testDeck.cards.Count);
         }
     }
 }
