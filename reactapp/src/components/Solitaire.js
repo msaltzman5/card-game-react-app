@@ -2,7 +2,7 @@
 import './Solitaire.css'
 
 export class Solitaire extends Component {
-    static displayName = Solitaire.name;
+    
 
     render() {
         return (

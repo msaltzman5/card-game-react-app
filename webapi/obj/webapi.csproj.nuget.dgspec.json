@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bananarama\\CSCE361\\card-game-react-app\\webapi\\webapi.csproj": {}
+    "C:\\Users\\longe\\projects\\card-game-react-app\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bananarama\\CSCE361\\card-game-react-app\\webapi\\webapi.csproj": {
+    "C:\\Users\\longe\\projects\\card-game-react-app\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bananarama\\CSCE361\\card-game-react-app\\webapi\\webapi.csproj",
+        "projectUniqueName": "C:\\Users\\longe\\projects\\card-game-react-app\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "C:\\Users\\Bananarama\\CSCE361\\card-game-react-app\\webapi\\webapi.csproj",
-        "packagesPath": "C:\\Users\\Bananarama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bananarama\\CSCE361\\card-game-react-app\\webapi\\obj\\",
+        "projectPath": "C:\\Users\\longe\\projects\\card-game-react-app\\webapi\\webapi.csproj",
+        "packagesPath": "C:\\Users\\longe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\longe\\projects\\card-game-react-app\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Bananarama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\longe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

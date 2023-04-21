@@ -5,11 +5,11 @@
     border: 5px solid black;
     box-shadow: 10px 10px;
     border-radius: 5px;
-    grid-template-columns: repeat(7, 6rem);
-    grid-template-rows: 9rem 9rem;
+    grid-template-columns: repeat(7, 10vh);
+    grid-template-rows: 16vh 16vh;
     height: 80vh;
-    row-gap: 3rem;
-    column-gap: 3rem;
+    row-gap: 8vh;
+    column-gap: 5vh;
     justify-content: center;
     align-items: center;
 }

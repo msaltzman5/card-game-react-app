@@ -2,3 +2,5 @@ C:\Users\Bananarama\CSCE361\card-game-react-test\reactapp\obj\Debug\reactapp.esp
 C:\Users\Bananarama\CSCE361\card-game-react-test\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
 C:\Users\Bananarama\CSCE361\card-game-react-app\reactapp\obj\Debug\reactapp.esproj.SuggestedBindingRedirects.cache
 C:\Users\Bananarama\CSCE361\card-game-react-app\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
+C:\Users\longe\projects\card-game-react-app\reactapp\obj\Debug\reactapp.esproj.SuggestedBindingRedirects.cache
+C:\Users\longe\projects\card-game-react-app\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache

@@ -14,7 +14,7 @@ namespace webapi.Managers
          * 2. Creating a Deck of cards to give to the front end to display
         */
 
-        /*[HttpGet("{itemType:int}")] // this code runs when then fetch method is called in js
+        [HttpGet("{itemType:int}")] // this code runs when then fetch method is called in js
         public ItemModel[] Get(int itemType)
         {
             Deck deck = new Deck();
@@ -22,6 +22,6 @@ namespace webapi.Managers
             ItemModel cards = deck.cards.Where(card => card.Suit == itemType)
 
             return cards;
-        }*/
+        }
     }
 }
