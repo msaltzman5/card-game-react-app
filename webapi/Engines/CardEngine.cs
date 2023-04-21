@@ -1,4 +1,6 @@
-﻿namespace webapi.Engines
+﻿using System.Collections;
+
+namespace webapi.Engines
 {
     public class CardEngine
     {
@@ -65,7 +67,7 @@
                 return cards.GetEnumerator();
             }
 
-            System.Collections.IEnumerator System.Collections.IEnumerable.GetEnumerator()
+            IEnumerator IEnumerable.GetEnumerator()
             {
                 throw new NotImplementedException();
             }
